@@ -13,14 +13,13 @@ function revertString(text) {
   // Transforma o array em uma string, retirando os espaços entre os índices
   lista = lista.join("");
 
- return console.log(`Palavra Invertida: ${lista}`);
+ return console.log(`${lista}`);
 }
 
 // Mesmo exercício realizado sem uso de funções nativas
 function revertStringManual(text) {
   // Declara um array
   let array = [];
-  
   // Laço percorre a String tornando-a substring
   for (let i = 0; i < text.length; i++) {
     // Variável que armazena o caractere a cada volta do laço
@@ -31,8 +30,8 @@ function revertStringManual(text) {
   // Variável recebe o array em forma de string
   let invertString = array.join("");
 
-  return console.log(`Palavra Invertida: ${invertString}`);;
+  return console.log(`${invertString}`);
 }
 
-revertString("😊👍");
+revertString("Okinaua");
 revertStringManual("😊👍");
