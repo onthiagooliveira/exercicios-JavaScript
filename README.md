@@ -24,7 +24,7 @@ Cada exercício deve ser resolvido e revisado pensando em:
 ## Estrutura dos exercícios
 
 ### Strings e Arrays
-1. Inverter uma string  
+1. Inverter uma string ✅
 2. Verificar palíndromo  
 3. Contar vogais  
 4. Somar números pares de um array  
