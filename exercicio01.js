@@ -33,5 +33,5 @@ function revertStringManual(text) {
   return console.log(`${invertString}`);
 }
 
-revertString("Okinaua");
+revertString("Okinawa");
 revertStringManual("😊👍");
